@@ -1,0 +1,167 @@
+                <html>
+
+                    <head>
+
+             <title>Webpage with style</title>
+
+            <!--            INTERNAL CSS-->
+
+            <style type="text/css">
+
+            /*
+                            p{
+                                color:red;
+                                font-size:200%;
+                            } 
+
+                            h1{
+                                color:pink;
+                            }
+            */
+             .red {
+
+              color:red;
+                            }
+
+         .large {
+
+            /*                    color:violet;*/
+             font-size:150%;
+                            }
+
+
+             #green{
+
+             color:gold;
+                            }
+
+            /*                text decoration is use for underlining text*/
+           .rob {
+
+             text-decoration:underline;
+                            }
+
+
+
+            /*                id are used once per page*/
+              #first-section {
+
+                  color: blue;
+                  background-color:pink;
+                  width: 200px;
+/*                float:left;*/
+/*
+                  position: relative;
+                  left: 100px;
+                  top: 300px;
+                  
+*/               padding: 5px 10px 15px 20px; 
+                  
+                 }
+
+
+               #second-section {
+
+                 background-color: yellow;
+                 width: 200px;
+/*                 float:right;*/
+/*
+                   position: relative;
+                   left:100px;
+                   top: -100px;
+*/
+                   margin: 50px 20px;
+                 } 
+
+/*
+            .clear-float{
+
+               clear: both;
+             }
+*/
+
+                body{
+                    
+                    margin: 0;
+                    padding:0;
+                }
+/*       to get rid of the space between our div*/
+                p{
+                    
+                    margin:0;
+                    padding:0;
+                }
+
+                          </style>
+
+                        </head>
+
+                    <body>
+                <!--           INLINE CSS-->
+                <!--        <p style="color:blue;font-size:200%">God has been very good,great and faithful to me</p>-->
+                <!--        h1 by default is 250%-->
+                <!--        <h1 style="color:green;font-size:250%"> Mighty are your works,wonderful are you,lord God almighty</h1>-->
+
+
+
+                 <p class="red large">God has been very good,great and faithful to me</p>
+
+                 <p class="large">God is so good!!</p>
+
+                 <p id="green">God has been very good,great and faithful to me.<span class="rob">And i can't quantify His goodness and mercy</span></p>
+
+            <!--            to underline a text in a paragraph you use a span tag-->
+
+                 <h1> Mighty are your works,wonderful are you,lord God almighty</h1>
+
+
+
+            <!--            DIV-->
+                 <div id="first-section">
+                 <p>God has been very good,great and faithful to me</p>
+
+                 <p>God is so good!!</p>
+                
+                        </div>
+
+
+            <div id="second-section">
+            <p>God has been very good,great and faithful to me.And i can't quantify His goodness and mercy</p>
+
+            <h1> Mighty are your works,wonderful are you,lord God almighty</h1>
+            
+            </div>
+
+
+
+    <!--  FLOAT to clear your floats ,you add a div and give it a class and the paragraph in the middle comes down-->
+
+         <div class="clear-float"></div>
+         <p>God has been very good,great and faithful to me.And i can't quantify His goodness and mercy</p>
+                        
+                        
+<!--          POSITIONING-->
+<!--                you can move your text using positive(+) or negative(-)sign. when you have overlapping texts and want to decide which one should come first you use"z-index"       
+
+
+<!--                opacity use to make things fade and good when you have an image under your text        -->
+                        
+            
+                        
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+                    </body>
+
+
+                </html>
